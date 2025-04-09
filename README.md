@@ -21,10 +21,10 @@ Browse, manage, and download files directly from your browser with a simple and 
 
 _(Replace these placeholder paths with actual paths to your screenshots)_
 
-![Screenshot of the file explorer](path/to/screenshot1.png)
+![Screenshot of the file explorer](temp/1.png)
 _Example of the file explorer interface._
 
-![Screenshot of file actions](path/to/screenshot2.png)
+![Screenshot of file actions](temp/2.png)
 _Dropdown menu showing file actions._
 
 ---
