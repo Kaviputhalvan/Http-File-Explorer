@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Explorer</title>
+</head>
+<body>
+    <h2>📁 {{ current_path or '/' }}</h2>
+    {% if current_path %}
+    <a href="/{{ current_path | replace(current_path.split('/')[-1], '') | trim('/') }}">🔙 Back</a><br><br>
+    {% endif %}
+
+    <form action="/upload/{{ current_path }}" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <button type="submit">Upload</button>
+    </form><br>
+
+    <ul>
+        {% for f in files %}
+        <li>
+            {% set full_path = (current_path + '/' + f).strip('/') %}
+            {% if '.' in f %}
+                📄 <a href="/{{ full_path }}">{{ f }}</a>
+                <a href="/edit/{{ full_path }}">✏️</a>
+            {% else %}
+                📁 <a href="/{{ full_path }}/">{{ f }}/</a>
+            {% endif %}
+            <a href="/delete/{{ full_path }}">❌</a>
+            <form action="/rename/{{ full_path }}" method="POST" style="display:inline;">
+                <input name="new_name" placeholder="Rename" required>
+                <button type="submit">Rename</button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
