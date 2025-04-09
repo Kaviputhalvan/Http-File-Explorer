@@ -112,7 +112,7 @@ Contributions are welcome! If you have any ideas, bug reports, or feature reques
 
 ## 👤 Author
 
-**K.Kavi**
+**K.Kaviputhalvan**
 📧 Email: [k.kavi.cpm100@gmail.com](mailto:k.kavi.cpm100@gmail.com)
 
 ---
