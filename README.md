@@ -19,7 +19,7 @@ Browse, manage, and download files directly from your browser with a simple and 
 
 ## 📸 Screenshots
 
-_(Replace these placeholder paths with actual paths to your screenshots)_
+_(examples)_
 
 ![Screenshot of the file explorer](temp/1.png)
 _Example of the file explorer interface._
