@@ -125,7 +125,5 @@ This project is open-source. Use it, modify it, share it — responsibly.
 
 ## 🏷️ Badges
 
-_(You can add these badges using services like Shields.io. Replace the URLs with the correct ones.)_
-
 [![Built with Flask](https://img.shields.io/badge/Built%20with-Flask-blueviolet)](https://flask.palletsprojects.com/)
 [![Python 3.x](https://img.shields.io/badge/Python-3.x-brightgreen)](https://www.python.org/)
